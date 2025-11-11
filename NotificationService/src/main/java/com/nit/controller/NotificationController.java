@@ -16,7 +16,7 @@ import com.nit.utility.Constants;
 @RequestMapping("/notify")
 public class NotificationController {
 
-	@PostMapping("/send")
+	@PostMapping("/email")
 	public ResponseEntity<ResponseMessage> sendMail(@RequestBody Booking booking) {
 		try {
 			// Simulate sending mail

@@ -14,6 +14,6 @@ public interface BookingServiceClient {
 	public ResponseMessage createBook(@RequestBody Booking booking);
 
 	@PostMapping("/cancel")
-	public ResponseMessage bookCancel(@RequestBody Booking booking);
+	public ResponseMessage bookingsCancel(@RequestBody Booking booking);
 
 }
